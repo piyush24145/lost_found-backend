@@ -1,4 +1,4 @@
-const Item = require("../models/item");
+const Item = require("../models/Item");
 const checkAndMatchItem = async (newItem) => {
   try {
     const oppositeType = newItem.type === "lost" ? "found" : "lost";
